@@ -8,7 +8,7 @@ const person = {
   },
   role: "Frontend Developer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Pakistan", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Karachi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Urdu"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -17,7 +17,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
+      I occasionally write about design, technology, Code and share thoughts on the intersection of
       creativity and engineering.
     </>
   ),
@@ -97,7 +97,7 @@ const about = {
         role: "Senior Frontend Engineer",
         achievements: [
           <>
-            Develop the Websites and webapps for the Career-Institute, resulting in a 20% increase in user
+            Develop the Websites and webapps for the Elpha Tech, resulting in a 20% increase in user
             engagement and 30% faster load times.
           </>,
           <>
@@ -139,11 +139,11 @@ const about = {
     institutions: [
       {
         name: "Agriculture University",
-        description: <>Studied software engineering.</>,
+        description: <>Studied BSIT.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Govt. Graduate College",
+        description: <>Studied Intermediate Computer Science.</>,
       },
     ],
   },
@@ -152,8 +152,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Mern Stack Development",
+        description: <>Able to build full stack applications with MERN stack.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -172,7 +172,7 @@ const about = {
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Building next gen apps with Next.js + Aceternity UI + Mongo DB.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
